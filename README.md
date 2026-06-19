@@ -89,6 +89,4 @@ On the H₂ benchmark, QNG reliably reaches chemical accuracy. Pure QIN is unsta
 
 The IBM Quantum script differs from the statevector version in several ways: gradients use the parameter-shift rule rather than autograd/backprop, the diagonal Hessian uses a parameter-shift double-shift rule instead of finite differences (fewer circuit evaluations, robust to shot noise), and a shot-noise-aware damping floor is applied to all preconditioned methods. IBM Quantum's free-tier access and pricing policies change over time — verify current terms before running on real backends, and note that hardware access is **not free**.
 
-## License
 
-Add your preferred license here (e.g. MIT).
